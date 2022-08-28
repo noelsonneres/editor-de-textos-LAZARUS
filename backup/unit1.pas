@@ -134,10 +134,6 @@ end;
 procedure TForm1.Button1Click(Sender: TObject);
 begin
 
-  if FontDialog1.Execute then
-
-    RichMemo1.SetTextAttributes(RichMemo1.SelStart, RichMemo1.SelLength,
-      FontDialog1.Font);
 end;
 
 procedure TForm1.Button20Click(Sender: TObject);

@@ -151,6 +151,7 @@ begin
   PageSetupToMargins(PageSetupDialog1, prm);
 
   RichMemo1.Print(prm);
+
 end;
 
 procedure TForm1.Button21Click(Sender: TObject);
